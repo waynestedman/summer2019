@@ -1,0 +1,302 @@
+* {box-sizing: border-box;}
+body {
+  font-size: 62.5%;
+}
+#blueLines {
+  background-image: url('https://www.dhccare.com/media/wysiwyg/content/giftguide/back-school-blue-lines.svg');
+  background-repeat: repeat repeat;
+  background-size: 10px 43px;
+  width: 1400px;
+  margin: 0 auto;
+}
+#row0 {
+  width: 1400px;
+  height: 60px;
+  background: #fff;
+  z-index: 1;
+  position: absolute;
+}
+.content-wrapper {
+  max-width: 1280px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding-top: 60px;
+  z-index: 10;
+  position: relative;
+  border-left: 1px solid #e53935;
+}
+.content-wrapper a {
+  text-decoration: none;
+  color: #212121;
+  text-transform: none;
+  cursor: pointer;
+}
+.dhcBlue {
+  color: #004098;
+  font-weight: 400;
+}
+.content-wrapper h1 {
+  font-size: 40px;
+  line-height: 1.2;
+  color: #26c6da;
+}
+.content-wrapper h2 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+.content-wrapper h3 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+.content-wrapper h4 {
+  font-size: 25px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+.content-wrapper p {
+  font-size: 18px;
+  line-height: 1.2;
+}
+.content-wrapper a {
+  font-size: 15px;
+  line-height: 1.2;
+}
+.content-wrapper .column p {
+  line-height: 1.45;
+  margin-top: 4px;
+}
+.cms-page-view .column.main img {
+  margin: 0 auto 20px auto;
+}
+#row1 .header-shield {
+  float: left;
+  width: 339px;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+#row1 .header-copy {
+  float: right;
+  text-align: left;
+  width: 58%;
+  margin-top: 5%;
+  padding-right: 10%;
+}
+#row2, #row4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+#row2 .column, #row4 .column {
+  width: 32%;
+}
+#row3 {
+  margin: 60px auto;
+}
+.product-item-link {
+  text-transform: none;
+}
+.widget.block-products-list .product-item-name {
+   height: 52px;
+}
+.price-wrapper {
+  font-weight: 400;
+}
+#row4 {
+  margin-bottom: 20px;
+}
+#row5 {
+  max-width: 1280px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+#row5 .blog-image {
+  width: 100%;
+  display: inline-block;
+  float: right;
+}
+#row5 .blog-text {
+  text-align: left;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 5%;
+  display: inline-block;
+  width: 32%;
+}
+#row5 .blog-text h2 {
+  margin-bottom: 1rem;
+}
+#row5 .blog-text p {
+  margin-bottom: 4rem;
+}
+#row5 a {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#row5 a:hover {
+  color: #26c6da;
+}
+.clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.column {
+  flex-direction: column;
+  text-align: center;
+}
+.block-title {
+  text-align: center;
+  margin: 0;
+}
+.widget .block-title>strong {
+  font-size: 4rem;
+  line-height: 1.5rem;
+}
+.block.widget .products-grid .product-item {
+  margin: 0;
+}
+.widget.block-products-list .add-button:hover {
+  background: #00388D;
+  border: 1px solid #00388D;
+  color: #fff;
+}
+/* --------------------------- Mobile & Tablet --------------------------- */
+@media only all and (max-width: 1279px) {
+  #blueLines {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .column {
+    margin-top: 0;
+  }
+  #row0 {
+    width: 100%;
+    height: 40px;
+    margin-left: -10px;
+  }
+  .content-wrapper {
+    margin: 0 auto;
+    border-left: none;
+  }
+ .cms-page-view .column.main img {
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  #row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 1%;
+  }
+  #row1 .header-shield {
+    margin: 0 auto;
+    float: none;
+    width: 100%;
+  }
+  #row1 .header-shield img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  #row1 .header-copy {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+  }
+  .content-wrapper .column {
+    margin: 44px auto 20px auto;
+  }
+  .content-wrapper h3 {
+    margin-top: 8px;
+  }
+  #row2, #row4 {
+    display: block;
+  }
+  #row2 .column, #row4 .column {
+    width: 100%;
+  }
+  #row2 img, #row4 img {
+    width: 90%;
+  }
+  #row5 {
+    margin: 40px auto 0 auto;
+    padding-bottom: 10px;
+  }
+  #row5 .blog-image {
+    float: none;
+  }
+  #row5 .blog-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+  #row5 .blog-text p {
+    margin-bottom: 2rem;
+  }
+} /* mobile and tablet */
+
+/* --------------------------- Tablet Exceptions --------------------------- */
+@media only all and (max-width: 1279px) and (min-width: 600px) {
+  .content-wrapper {
+    border-left: 1px solid #e53935;
+  }
+  .content-wrapper .column {
+    max-width: 284px;
+  }
+ .cms-page-view .column.main img {
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  #row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0 auto;
+    /* padding-left: 1%; */
+  }
+  #row1 .header-shield {
+    margin: 0 auto;
+    float: left;
+    width: 30%;
+  }
+  #row1 .header-shield img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  #row1 .header-copy {
+    margin: -10px auto 0 auto;
+    text-align: left;
+    width: 60%;
+    padding: 0;
+  }
+  #row2, #row4 {
+    display: flex;
+    flex-direction: row;
+  }
+  #row2 .column, #row4 .column {
+    width: 100%;
+  }
+  #row5 {
+    padding-bottom: 50px;
+  }
+  #row5 .blog-image {
+    width: 100%;
+    display: inline-block;
+    float: right;
+  }
+  #row5 .blog-text {
+    width: 40%;
+    text-align: left;
+    position: absolute;
+    margin: -20px 0 10px 10px;
+    display: inline-block;
+  }
+  #row5 .blog-text h2 {
+    font-size: 32px;
+  }
+} /*  tablet exceptions */
