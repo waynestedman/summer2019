@@ -5,22 +5,33 @@
 
 .content-wrapper {
   h2 {
-    font-size: 6.5rem;
+    font-size: 3.25rem;
     font-weight: 400;
+    text-transform: uppercase;
   }
   h3 {
-    font-size: 5rem;
+    font-size: 2.3rem;
   }
   h4 {
-    font-size: 4.5rem;
+    font-size: 2.2rem;
     font-weight: 400;
   }
   h5 {
-    font-size: 2.8rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    height: 40px;
   }
   h6 {
-    font-size: 4.8rem;
+    font-size: 2.4rem;
     font-weight: 400;
+  }
+  .link-cta {
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .button-cta {
     color: $gray700;
@@ -29,7 +40,7 @@
     border: 1px solid $gray700;
 
     &:hover {
-      background-color: $gray400;
+      background-color: $gray200;
     }
   }
   .clearfix {
@@ -42,7 +53,7 @@
 #row2 {
   display: flex;
   justify-content: space-between;
-  margin: 2rem auto 4rem auto;
+  margin: 2rem auto 6rem auto;
 
   .guide {
     flex-direction: column;
@@ -51,28 +62,29 @@
   }
 } // row2
 #products {
-  .products-title {
+  .a-products-title {
     width: 100%;
+    margin: 0 auto 6rem auto;
   } // products-title
-  .products {
+  .o-products {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-end;
 
-    .product {
+    .m-product {
       text-align: center;
       width: 20%;
       flex-direction: column;
-      justify-content: space-evenly;
-      align-items: flex-end;
+      justify-content: flex-end;
 
       img {
         margin: 0 auto;
+        max-height: 340px;
       }
       h4 {
         sup {
-          font-size: 3rem;
+          font-size: 1.6rem;
         }
       }
     } //product
