@@ -1,10 +1,24 @@
 @media only screen and (max-width: 649px) {
   .content-wrapper {
+    h2, h4 {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+    h3 {
+      line-height: 1;
+    }
     h5 {
       max-width: 100%;
+      line-height: 1;
+    }
+    h6 {
+      line-height: 1;
+      margin-top: 1.8rem;
+      margin-bottom: 4rem;
     }
     .button-cta {
-      margin: 1rem auto 2rem auto;
+      margin: 0 auto;
       padding-left: 2rem;
       padding-right: 2rem;
       max-width: 200px;
@@ -19,6 +33,8 @@
     }
   } //row2
   #products {
+    padding-bottom: 4rem;
+
     .a-products-title {
       width: 98%;
     } // a-products-title
@@ -30,16 +46,53 @@
 
       .m-product {
         width: 100%;
+        margin-bottom: 4rem;
 
+        img {
+          width: 52%;
+        }
       } //m-product
     } // o-products
   } // products
 } // Mobile - everything smaller than 650
 
-// @media only screen and (max-width: 459px) {
-//
-// } // to max 450 - Bigger mobile exceptions
+@media only screen and (min-width: 650px) and (max-width: 1025px) {
+  .content-wrapper {
+    h3 {
+      margin: 0 auto;
+      font-size: 2.5rem;
+      width: 80%;
+    }
+    h4 {
+      font-size: 1.9rem;
+      margin-bottom: 1rem;
+    }
+    h5 {
+      font-size: 1.5rem;
+      padding: 0 px;
+    }
+    h6 {
+      font-size: 1.8rem;
+    }
+    #row1 {
+      margin-bottom: 1.3rem;
+    }
+    #row2 {
+      margin-top: 0;
+    }
+    #products {
+      .o-products {
+        .m-product {
+          width: 22%;
 
-@media only screen and (min-width: 650px) and (max-width: 1024px) {
-
+          img {
+            width: 70%;
+          }
+          h5 {
+            width: 90%;
+          }
+        }
+      }
+    }
+  } // content-wrapper
 } // min 650 to max 1024 - Tablet

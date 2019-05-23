@@ -80,9 +80,11 @@
       flex-direction: column;
       justify-content: flex-end;
 
+      a {
+        height: 340px;
+      }
       img {
         margin: 0 auto;
-        max-height: 340px;
       }
       h4 {
         sup {
