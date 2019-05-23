@@ -181,42 +181,37 @@ body {
 }
 
 .content-wrapper h2 {
-  font-size: 4rem;
+  font-size: 6.5rem;
   font-weight: 400;
 }
 
 .content-wrapper h3 {
-  font-size: 3.6rem;
+  font-size: 5rem;
 }
 
 .content-wrapper h4 {
-  font-size: 2.8rem;
+  font-size: 4.5rem;
+  font-weight: 400;
 }
 
 .content-wrapper h5 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
 }
 
 .content-wrapper h6 {
-  font-size: 2.4rem;
-}
-
-.content-wrapper p {
-  font-size: 2.2rem;
+  font-size: 4.8rem;
+  font-weight: 400;
 }
 
 .content-wrapper .button-cta {
-  font-size: 2rem;
-  font-weight: 400;
-  background-color: #004098;
-  color: #fff;
+  color: #424649;
   text-transform: uppercase;
   padding: 1rem 4rem;
-  border: 1px solid #004098;
+  border: 1px solid #424649;
 }
 
 .content-wrapper .button-cta:hover {
-  background-color: #B1C9E8;
+  background-color: #BDBDBD;
 }
 
 .content-wrapper .clearfix {
@@ -236,7 +231,7 @@ body {
 }
 
 #row1 {
-  margin-bottom: 40px;
+  margin-bottom: 2rem;
 }
 
 #row2 {
@@ -246,11 +241,59 @@ body {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 20px auto;
+  margin: 2rem auto 4rem auto;
 }
 
-#row2 .column {
+#row2 .guide {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 32%;
+  text-align: center;
+}
+
+#products .products-title {
+  width: 100%;
+}
+
+#products .products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#products .products .product {
+  text-align: center;
+  width: 20%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+#products .products .product img {
+  margin: 0 auto;
+}
+
+#products .products .product h4 sup {
+  font-size: 3rem;
 }
 
 @media only screen and (max-width: 649px) {
