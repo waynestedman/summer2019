@@ -1,0 +1,54 @@
+// Summer Skin Guide Colors:
+// main blue = $blue700
+// dark gray = $gray700
+// hover gray = $gray400
+
+.content-wrapper {
+  h2 {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 3.6rem;
+  }
+  h4 {
+    font-size: 2.8rem;
+  }
+  h5 {
+    font-size: 2.4rem;
+  }
+  h6 {
+    font-size: 2.4rem;
+  }
+  p {
+    font-size: 2.2rem;
+  }
+  .button-cta {
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: $blue700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 4rem;
+    border: 1px solid $blue700;
+
+    &:hover {
+      background-color: $blue400;
+    }
+  }
+  .clearfix {
+    @include clearfix;
+  }
+} // content-wrapper
+#row1 {
+  margin-bottom: 40px;
+}
+#row2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+
+  .column {
+    width: 32%;
+  }
+}

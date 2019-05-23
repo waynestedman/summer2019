@@ -1,0 +1,33 @@
+@media only screen and (max-width: 649px) {
+  .content-wrapper {
+
+  } // content-wrapper
+  #row1 {
+    .header-img {
+      margin: 0 auto;
+      width: 100%;
+    }
+     .header-img img {
+      margin: 0 auto;
+      width: 100%;
+    }
+  } // row1
+  #row2 {
+    display: block;
+
+    .column {
+      width: 100%;
+    }
+    img {
+      width: 90%;
+    }
+  } //row2
+} // Mobile - everything smaller than 650
+
+// @media only screen and (max-width: 459px) {
+//
+// } // to max 450 - Bigger mobile exceptions
+
+@media only screen and (min-width: 650px) and (max-width: 1024px) {
+
+} // min 650 to max 1024 - Tablet
