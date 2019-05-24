@@ -1,6 +1,15 @@
 /guide-to-summer-skin
 UK BACKUP /summer-skincare-guide
 
-
-
 /media/wysiwyg/content/giftguide
+
+
+
+US:  /concentrated-eye-cream.html
+UK:  /concentrated-eye-cream-2.html
+
+/super-collagen-mist.html
+
+/velvet-skin-coat.html
+
+/deep-cleansing-oilr.html
