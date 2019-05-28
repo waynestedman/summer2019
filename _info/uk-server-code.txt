@@ -424,7 +424,7 @@
 }
 --></style>
 <div class="content-wrapper"><section id="row1">
-<div class="a-header-img"><picture> <source media="(max-width: 649px)" srcset="/media/wysiwyg/content/giftguide/hero-m.jpg" /> <img src="/media/wysiwyg/content/giftguide/hero.jpg" alt="The Summer Skin Guide" /> </picture></div>
+<div class="a-header-img"><picture> <source media="(max-width: 649px)" srcset="/media/wysiwyg/content/giftguide/hero-uk-m.jpg" /> <img src="/media/wysiwyg/content/giftguide/hero-uk.jpg" alt="The Summer Skin Guide" /> </picture></div>
 </section><!-- row1 --><section id="row2">
 <div class="m-guide"><a href="/gifts/gift-1.html"><img src="/media/wysiwyg/content/giftguide/antioxidants.jpg" alt="Antioxidants - Protect with the best defenders" /></a>
 <div class="guide-text">
@@ -433,7 +433,7 @@
 <h6 class="link-cta">Shop Now &gt;</h6>
 </div>
 </div>
-<div class="m-guide"><a href="/gifts/gift-2.html"><img src="/media/wysiwyg/content/giftguide/must-haves.jpg" alt="Mini Must-Haves - Take-everywhere travel essentials" /></a>
+<div class="m-guide"><a href="/shop/skincare/travel.html"><img src="/media/wysiwyg/content/giftguide/must-haves.jpg" alt="Mini Must-Haves - Take-everywhere travel essentials" /></a>
 <div class="guide-text">
 <h2>MINI MUST-HAVES</h2>
 <h3>Take-everywhere travel essentials.</h3>
