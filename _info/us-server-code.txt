@@ -430,21 +430,21 @@
 <div class="guide-text">
 <h2>ANTIOXIDANTS</h2>
 <h3>Protect with the best defenders.</h3>
-<h6 class="link-cta">Shop Now &gt;</h6>
+<h6 class="link-cta"><a href="/gifts/gift-1.html">Shop Now &gt;</a></h6>
 </div>
 </div>
 <div class="m-guide"><a href="/shop/skincare/travel.html"><img src="/media/wysiwyg/content/giftguide/must-haves.jpg" alt="Mini Must-Haves - Take-everywhere travel essentials" /></a>
 <div class="guide-text">
 <h2>MINI MUST-HAVES</h2>
 <h3>Take-everywhere travel essentials.</h3>
-<h6 class="link-cta">Shop Now &gt;</h6>
+<h6 class="link-cta"><a href="/shop/skincare/travel.html">Shop Now &gt;</a></h6>
 </div>
 </div>
 <div class="m-guide"><a href="/gifts/gift-3.html"><img src="/media/wysiwyg/content/giftguide/light-layers.jpg" alt="Light Layers - Switch over to lighter-weight formulas" /></a>
 <div class="guide-text">
 <h2>LIGHT LAYERS</h2>
 <h3>Switch over to lighter-weight formulas.</h3>
-<h6 class="link-cta">Shop Now &gt;</h6>
+<h6 class="link-cta"><a href="/gifts/gift-3.html">Shop Now &gt;</a></h6>
 </div>
 </div>
 </section><!-- row2 --><section id="products">
